@@ -1,0 +1,20 @@
+*{
+	color: white;
+
+}
+body{
+	background-color: black;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.img1, .img2{
+	margin-right: 10px;
+	width: 300px;
+}
+.img1{
+	float: left;
+}
+.img2{
+	float: right;
+}
