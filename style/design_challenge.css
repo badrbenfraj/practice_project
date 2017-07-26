@@ -1,40 +1,81 @@
-*{
-	margin: 0;
-	font-family: arial;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 nav{
-	padding: 15px;
-	width: 100%;
-	position: fixed;
-	background-color: #eeeeee;
+  margin-bottom: 20px;
 }
-p{
-	display: inline-block;
-	font-size: 18px;
-	font-family: "Roboto", sans-serif;
+section{
+	margin-bottom: 30px;	
 }
-.right{
-	float: right;
-	padding-right: 25px;
+a {
+  text-decoration: none;
 }
-main{
-	position: absolute;
-	padding-top: 90px;
-	padding-left: 90px; 
+a:hover {
+  text-decoration: underline;
 }
-input{
-	width: 400px;
-	height: 30px;
-	margin-bottom: 13px;
-	border: 1px solid #cbcbcb;
-	border-radius: 3px;
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #EEEEEE;
+  border-bottom: 1px solid #DDDDDD;
 }
-.search .ipt, .search .image{
-	display: inline-block;
+.nav {
+  position: absolute;
+  top: 10px;
+  right: 10px;
 }
-.image{
-	width: 30px;
+.right {
+  font-size: 18px;
+  padding: 0 6px;
 }
+.logo {
+  display: inline-block;
+  font-weight: 800;
+  
+}
+.logo p {
+  font-size: 18px;
+  font-weight: normal;
+  cursor: pointer; 
+  margin: 0;
+  padding-top: 10px;
+  margin-left: 5px;
+}
+.search .search-label {
+  display: block;
+  margin-bottom: 8px;
+}
+.search .ipt, 
+.search .search-button {
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+.search input {
+  font-size: 16px; 
+  font-weight: 500;
+  width: 400px;
+  height: 30px;
+  padding: 0 5px 0 8px;
+  
+}
+.search .search-button {
+  width: 37px;
+  height: 30px;
+  padding: 2px 6px 3px 6px;
+  background-color: white;
+  vertical-align: bottom;
+}
+
 .table{
 	border-collapse: collapse;
     border: 1px solid #cbcbcb;
@@ -51,7 +92,6 @@ input{
 	padding:15px;
 	text-align: center;
 }
-
 div p{
 	text-align: left;
 	display: inline-block;

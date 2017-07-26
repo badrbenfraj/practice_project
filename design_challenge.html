@@ -8,24 +8,27 @@
 <body>
 <header>
 	<nav>
-		<p>Greg's List</p>
-		<p class="right">post</p>
-		<p class="right">account</p>
+		<a href="#" class="logo"><p>Greg's List</p></a>
+		<div class="nav">
+			<a href="#" class="right">post</a>
+			<a href="#" class="right">account</a>
+		</div>
 	</nav>
 </header>
+
 <main>
-	<form class="search">
-		<h3>Search Job</h3>
-		<div class="search">
+	<section class="search">
+		<form>
+			<label for="search" class="search-label">Search Job</label>
 			<input type="text" name="search" placeholder="Search software jobs" class="ipt">
-			<input type="image" role="button" src="img/magnifying-glass.png" class="image">
-		</div>
-	</form>
+			<input type="image" role="button" class="search-button" src="img/magnifying-glass.png" alt="Search">
+		</form>
+	</section>
 	<table class="table">
 		<tr>
-			<td class="lt"> &lt; prev</td>
+			<td class="lt"><a href="#">&lt; prev</a></td>
 			<td>1 to 100 of 179</td>
-			<td class="rt">next &gt;</td>
+			<td class="rt"><a href="#">next &gt;</a></td>
 		</tr>
 	</table>
 		<div class="container1">
