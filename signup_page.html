@@ -2,11 +2,12 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="style/signup_page.css">
+	<meta charset="utf-8">
 	<title>signup page</title>
 </head>
 <body>
-	<p class="Forgot"><img src="img/logo.png" class="logo"></p>
-	<form>
+	<p><img src="img/logo.png" class="logo"></p>
+	<form role="form" action="/signup" method="post">
 		<fieldset>
 			<legend>Sign up</legend>
 			<label for="email">Email</label>
@@ -14,11 +15,11 @@
 			<label for="password">Password</label>
 			<input type="password" name="password" class="password" placeholder="Password" required>
 		</fieldset>
-		<input type="button" class="button" name="button" value="Sign up">
+		<input type="submit" class="button"  name="button" value="Sign up">
 		<a href="/forgot_password/new"><p class="fpwd">Forgot password?</p></a>
 	</form>
 	<section>
-		<p class="Forgot">Already have an account? <a href="">Log in</a></p>
+		<p>Already have an account? <a href="/login">Log in</a></p>
 	</section>
 </body>
 </html>

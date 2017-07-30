@@ -1,10 +1,12 @@
 *{
 	box-sizing: border-box;
 	font-family: helvetica;
+	margin: 0;
 }
 body{
 	background-color: #298eea;
 	position: relative;
+	top: 60px;
 }
 .logo{
 	 vertical-align: middle;
@@ -19,14 +21,14 @@ form{
 
 fieldset{
 	border:transparent;
-	padding: 0 40px 40px 40px;
+	padding: 0 40px 20px 40px;
 }
 legend, p{
 	text-align: center;
 }
 
 legend{
-	font-size: 30px;
+	font-size: 38px;
 	padding: 40px;
 }
 input, label{
@@ -50,13 +52,18 @@ input{
 .button{
 	background-color: #56bb5d; 
 	border: 2px solid #56bb5d;
+	cursor: pointer;
 }
 img{
 	height: 35px;
-	margin: 40px;
+	margin-bottom: 30px;
 }
 section p, a{
 	color: #fff;
+}
+section p{
+	padding-top: 20px;
+	font-weight: bold;
 }
 form a{
 	color: #959595;
@@ -66,4 +73,5 @@ form a{
 .fpwd{
 	text-align: center;
 	padding-bottom: 15px;
+	padding-top: 20px;
 }
