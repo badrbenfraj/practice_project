@@ -1,0 +1,47 @@
+.row, 
+.column{
+    box-sizing: border-box;
+    min-height: 170px;
+}
+.column-3 {
+    width: 23.8%;
+}
+.column-4 {
+    width: 32.2666666667%;
+}
+.column-6 {
+    width: 49.2%;
+}
+.column-12 {
+    width: 100%;
+}
+.orange{
+	background-color: orange;
+}
+.black{
+	background-color: black;
+}
+.green{
+	background-color: green;
+}
+.blue{
+	background-color: blue;
+}
+.column + .column {
+    margin-left: 1.6%;
+}
+.column {
+    position: relative;
+    float: left;
+    display: inline-block;
+}
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+p{
+	text-align: center;
+}
