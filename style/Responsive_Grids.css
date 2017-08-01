@@ -45,3 +45,32 @@
 p{
 	text-align: center;
 }
+.white{
+	color: white;
+}
+
+@media only screen and (max-width: 690px) {
+	.column-3, .column-4, .column-6,.column-12{
+		width: 100%;
+		float: left;
+	}
+	.column + .column {
+    	margin-left: 0;
+	}
+	.row .column-3:nth-child(1){
+		margin-top: 70px;
+	}
+	.row .column-3:nth-child(4){
+		margin-bottom: 20px;
+	}
+	.row .column-4:nth-child(3){
+		margin-bottom: 20px;
+	}
+	.row .column-6:nth-child(2){
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
